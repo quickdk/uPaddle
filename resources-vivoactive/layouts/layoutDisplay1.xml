@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="yes" ?><!DOCTYPE layout [
+    <!ENTITY LValueX "86">
+    <!ENTITY LLabelX "2">
+    
+    <!ENTITY RValueX "188">
+    <!ENTITY RLabelX "106">  
+    
+	<!ENTITY TValueY "37"> 
+    <!ENTITY TLabelY "2">
+    
+    <!ENTITY MValueY "48">
+    <!ENTITY MLabelY "29">
+    
+    <!ENTITY BValueY "114">
+    <!ENTITY BLabelY "79"> 
+           
+    <!ENTITY LabelFont4 "Gfx.FONT_SMALL">
+    <!ENTITY ValueFont4 "Gfx.FONT_NUMBER_MILD"> 
+    
+    <!ENTITY LabelFont3 "Gfx.FONT_SMALL">
+    <!ENTITY ValueFont3 "Gfx.FONT_NUMBER_HOT"> 
+    
+    <!ENTITY LabelFont2 "Gfx.FONT_SMALL">
+    <!ENTITY ValueFont2 "Gfx.FONT_NUMBER_HOT"> 
+    
+    <!ENTITY LabelFont1 "Gfx.FONT_MEDIUM">
+    <!ENTITY ValueFont1 "Gfx.FONT_NUMBER_THAI_HOT">  
+      
+    <!ENTITY TextColor "Gfx.COLOR_BLACK">  
+]>
+<layouts>
+	<layout id="FourFields">
+		<drawable id="FourFields" />
+	    <label id="DataField1Value" x="&LValueX;" y="&TValueY;" font="&ValueFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField1Label" x="&LLabelX;" y="&TLabelY;" font="&LabelFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="DataField2Value" x="&RValueX;" y="&TValueY;" font="&ValueFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField2Label" x="&RLabelX;" y="&TLabelY;" font="&LabelFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="DataField3Value" x="&LValueX;" y="&BValueY;" font="&ValueFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField3Label" x="&LLabelX;" y="&BLabelY;" font="&LabelFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="DataField4Value" x="&RValueX;" y="&BValueY;" font="&ValueFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField4Label" x="&RLabelX;" y="&BLabelY;" font="&LabelFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	</layout>
+	<layout id="ThreeFields">
+		<drawable id="ThreeFields" />
+	    <label id="DataField1Value" x="&RValueX;" y="4" font="&ValueFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField1Label" x="&LLabelX;" y="4" font="&LabelFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="DataField2Value" x="&RValueX;" y="52" font="&ValueFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField2Label" x="&LLabelX;" y="52" font="&LabelFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="DataField3Value" x="&RValueX;" y="102" font="&ValueFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField3Label" x="&LLabelX;" y="102" font="&LabelFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	</layout>
+	<layout id="TwoFields">
+		<drawable id="TwoFields" />
+	    <label id="DataField1Value" x="&RValueX;" y="19" font="&ValueFont2;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField1Label" x="&LLabelX;" y="4" font="&LabelFont2;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="DataField2Value" x="&RValueX;" y="94" font="&ValueFont2;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField2Label" x="&LLabelX;" y="79" font="&LabelFont2;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	</layout>
+	<layout id="OneFields">
+		<drawable id="OneFields" />
+	    <label id="DataField1Value" x="&RValueX;" y="53" font="&ValueFont1;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField1Label" x="&LLabelX;" y="4" font="&LabelFont1;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	</layout>
+	<layout id="GPSStatusLayout">
+		<drawable id="GPSStatusDrawable" />
+	    <label id="GPSStatus" x="center" y="center" font="&ValueFont1;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	</layout>
+</layouts>

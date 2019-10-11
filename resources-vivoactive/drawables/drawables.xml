@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes" ?><!DOCTYPE drawable [
+    <!ENTITY LineThickness "2">
+    
+    <!ENTITY LineColor "Gfx.COLOR_BLACK"> 
+    
+    <!ENTITY BackgroundColor "Gfx.COLOR_WHITE">  
+]>
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <drawable-list id="FourFields" background="&BackgroundColor;">
+        <shape type="rectangle" x="102" y="0" width="&LineThickness;" height="148" color="&LineColor;" />
+        <shape type="rectangle" x="0" y="73" width="205" height="&LineThickness;" color="&LineColor;" />
+    </drawable-list>
+    <drawable-list id="ThreeFields" background="&BackgroundColor;">
+        <shape type="rectangle" x="0" y="48" width="205" height="&LineThickness;" color="&LineColor;" />
+        <shape type="rectangle" x="0" y="97" width="205" height="&LineThickness;" color="&LineColor;" />
+    </drawable-list>
+    <drawable-list id="TwoFields" background="&BackgroundColor;">
+        <shape type="rectangle" x="0" y="73" width="205" height="&LineThickness;" color="&LineColor;" />
+    </drawable-list>
+    <drawable-list id="OneFields" background="&BackgroundColor;">
+    </drawable-list>
+</drawables>
+

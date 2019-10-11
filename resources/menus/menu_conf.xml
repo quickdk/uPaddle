@@ -1,0 +1,4 @@
+<menu id="ConfMenu">
+    <menu-item id="item_cancel">@Strings.menu_label_cancel</menu-item>
+    <menu-item id="item_confirm">@Strings.menu_label_confirm</menu-item>
+</menu>

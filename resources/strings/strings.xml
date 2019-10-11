@@ -1,0 +1,156 @@
+<strings>
+
+    <string id="AppName">uPaddle</string>
+    
+    <string id="ActivityTypeTitle">Activity Type</string>
+    <string id="ActivityKayak">Kayak</string>
+    <string id="ActivitySUP">SUP</string>
+    <string id="ActivityRafting">Rafting</string>
+    
+    <string id="menu_label_resume">Resume</string>
+    <string id="menu_label_save">Save</string>
+    <string id="menu_label_discard">Discard</string>
+    <string id="menu_label_cancel">Cancel</string>
+    <string id="menu_label_confirm">Confirm</string>
+
+	<string id="DataField1Disp1Title">Data Field 1 - Disp. 1</string>
+	<string id="DataField2Disp1Title">Data Field 2 - Disp. 1</string>
+	<string id="DataField3Disp1Title">Data Field 3 - Disp. 1</string>
+	<string id="DataField4Disp1Title">Data Field 4 - Disp. 1</string>
+	<string id="DataField1Disp2Title">Data Field 1 - Disp. 2</string>
+	<string id="DataField2Disp2Title">Data Field 2 - Disp. 2</string>
+	<string id="DataField3Disp2Title">Data Field 3 - Disp. 2</string>
+	<string id="DataField4Disp2Title">Data Field 4 - Disp. 2</string>
+	<string id="DataField1Disp3Title">Data Field 1 - Disp. 3</string>
+	<string id="DataField2Disp3Title">Data Field 2 - Disp. 3</string>
+	<string id="DataField3Disp3Title">Data Field 3 - Disp. 3</string>
+	<string id="DataField4Disp3Title">Data Field 4 - Disp. 3</string>
+	<string id="DataField1Disp4Title">Data Field 1 - Disp. 4</string>
+	<string id="DataField2Disp4Title">Data Field 2 - Disp. 4</string>
+	<string id="DataField3Disp4Title">Data Field 3 - Disp. 4</string>
+	<string id="DataField4Disp4Title">Data Field 4 - Disp. 4</string>
+	
+	<string id="ToggleDisplay1Title">Toggle Display 1</string>
+	<string id="ToggleDisplay2Title">Toggle Display 2</string>
+	<string id="ToggleDisplay3Title">Toggle Display 3</string>
+	<string id="ToggleDisplay4Title">Toggle Display 4</string>
+	
+	<string id="NumOfFieldsDisp1Title">Number of fields - Disp. 1</string>
+	<string id="NumOfFieldsDisp2Title">Number of fields - Disp. 2</string>
+	<string id="NumOfFieldsDisp3Title">Number of fields - Disp. 3</string>
+	<string id="NumOfFieldsDisp4Title">Number of fields - Disp. 4</string>
+	
+	<string id="ToggleAutoLap">Toggle auto-lap</string>
+	<string id="AutoLapDist">Auto-lap distance</string>
+	
+	<string id="fifty">50</string>
+	<string id="seventyfive">75</string>
+	<string id="hundred">100</string>
+	<string id="hundredfifty">150</string>
+	<string id="twohundred">200</string>
+	<string id="twofifty">250</string>
+	<string id="threehundred">300</string>
+	<string id="fourhundred">400</string>
+	<string id="fivehundred">500</string>
+	<string id="sevenfifty">750</string>
+	<string id="thousand">1000</string>
+	<string id="twelvefifty">1250</string>
+	<string id="fifteenhundred">1500</string>
+	<string id="twothousand">2000</string>
+	<string id="twentyfivehundred">2500</string>
+	<string id="fivethousand">5000</string>
+	
+	
+    <string id="ElapsedTimeTitle">Elapsed Time</string>
+    <string id="TimeofDayTitle">Time of Day</string>
+    <string id="CurrentLapTimeTitle">Current Lap Time</string>
+    <string id="LastLapTimeTitle">Last Lap Time</string>
+    <string id="DistanceTitle">Distance</string>
+    <string id="CurrentLapDistanceTitle">Current Lap Distance</string>
+    <string id="LastLapDistanceTitle">Last Lap Distance</string>
+    <string id="SpeedTitle">Speed</string>
+    <string id="AverageSpeedTitle">Average Speed</string>
+    <string id="MeterperStrokeTitle">Meter per Stroke</string>
+    <string id="AverageMeterperStrokeTitle">Average Meter per Stroke</string>
+    <string id="StrokeCadenceTitle">Stroke Cadence</string>
+    <string id="AverageSrokeCadenceTitle">Average Stroke Cadence</string>
+    <string id="HeartRateTitle">Heart Rate</string>
+    <string id="AverageHeartRateTitle">Average Heart Rate</string>
+    <string id="HeadingTitle">Heading</string>
+    <string id="PaceTitle">Pace</string>
+    
+    <string id="ElapsedTimeValue">0</string>
+    <string id="TimeofDayValue">0</string>
+    <string id="CurrentLapTimeValue">0</string>
+    <string id="LastLapTimeValue">0</string>
+    <string id="DistanceValue">0</string>
+    <string id="CurrentLapDistanceValue">0</string>
+    <string id="LastLapDistanceValue">0</string>
+    <string id="SpeedValue">0</string>
+    <string id="AverageSpeedValue">0</string>
+    <string id="MeterperStrokeValue">0</string>
+    <string id="AverageMeterperStrokeValue">0</string>
+    <string id="StrokeCadenceValue">0</string>
+    <string id="AverageSrokeCadenceValue">0</string>
+    <string id="HeartRateValue">0</string>
+    <string id="AverageHeartRateValue">0</string>
+    <string id="HeadingValue">0</string>
+    
+    <string id="ElapsedTimeLabel">TIME</string>
+    <string id="TimeofDayLabel">ToD</string>
+    <string id="CurrentLapTimeLabel">L TIME</string>
+    <string id="LastLapTimeLabel">L L TIME</string>
+    <string id="DistanceLabel">DST</string>
+    <string id="CurrentLapDistanceLabel">L DST</string>
+    <string id="LastLapDistanceLabel">LL DST</string>
+    <string id="SpeedLabel">SPEED</string>
+    <string id="AverageSpeedLabel">A SPEED</string>
+    <string id="MeterperStrokeLabel">M/STRK</string>
+    <string id="AverageMeterperStrokeLabel">A M/STRK</string>
+    <string id="StrokeCadenceLabel">CAD</string>
+    <string id="AverageSrokeCadenceLabel">A CAD</string>
+    <string id="HeartRateLabel">HR</string>
+    <string id="AverageHeartRateLabel">A HR</string>
+    <string id="HeadingLabel">HEAD</string>
+    <string id="PaceLabel">PACE</string>
+    
+    <string id="ElapsedTimeUnit"> </string>
+    <string id="TimeofDayUnit"> </string>
+    <string id="CurrentLapTimeUnit"> </string>
+    <string id="LastLapTimeUnit"> </string>
+    <string id="DistanceUnit">Km</string>
+    <string id="CurrentLapDistanceUnit">Km</string>
+    <string id="LastLapDistanceUnit">Km</string>
+    <string id="SpeedUnit">K/h</string>
+    <string id="AverageSpeedUnit">K/h</string>
+    <string id="MeterperStrokeUnit">m/s</string>
+    <string id="AverageMeterperStrokeUnit">m/s</string>
+    <string id="StrokeCadenceUnit">s/m</string>
+    <string id="AverageSrokeCadenceUnit">s/m</string>
+    <string id="HeartRateUnit">BPM</string>
+    <string id="AverageHeartRateUnit">BPM</string>
+    
+    <string id="DataField1Disp1Value">0</string>
+	<string id="DataField2Disp1Value">0</string>
+	<string id="DataField3Disp1Value">0</string>
+	<string id="DataField4Disp1Value">0</string>
+	<string id="DataField1Disp2Value">0</string>
+	<string id="DataField2Disp2Value">0</string>
+	<string id="DataField3Disp2Value">0</string>
+	<string id="DataField4Disp2Value">0</string>
+	<string id="DataField1Disp3Value">0</string>
+	<string id="DataField2Disp3Value">0</string>
+	<string id="DataField3Disp3Value">0</string>
+	<string id="DataField4Disp3Value">0</string>
+	<string id="DataField1Disp4Value">0</string>
+	<string id="DataField2Disp4Value">0</string>
+	<string id="DataField3Disp4Value">0</string>
+	<string id="DataField4Disp4Value">0</string>
+	
+	<string id="One">1</string>
+	<string id="Two">2</string>
+	<string id="Three">3</string>
+	<string id="Four">4</string>
+	
+
+</strings>

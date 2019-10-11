@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes" ?><!DOCTYPE layout [
+    <!ENTITY LLabelX "2">
+    
+    <!ENTITY RValueX "141">
+
+    <!ENTITY LabelFont4 "Gfx.FONT_SMALL">
+    <!ENTITY ValueFont4 "Gfx.FONT_NUMBER_MILD"> 
+    
+    <!ENTITY LabelFont3 "Gfx.FONT_SMALL">
+    <!ENTITY ValueFont3 "Gfx.FONT_NUMBER_HOT"> 
+    
+    <!ENTITY LabelFont2 "Gfx.FONT_SMALL">
+    <!ENTITY ValueFont2 "Gfx.FONT_NUMBER_HOT"> 
+    
+    <!ENTITY LabelFont1 "Gfx.FONT_SMALL">
+    <!ENTITY ValueFont1 "Gfx.FONT_NUMBER_THAI_HOT">  
+      
+    <!ENTITY TextColor "Gfx.COLOR_BLACK">  
+]>
+<layouts>
+	<layout id="FourFields">
+		<drawable id="FourFields" />
+	    <label id="DataField1Value" x="&RValueX;" y="21" font="&ValueFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField1Label" x="&LLabelX;" y="2" font="&LabelFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="DataField2Value" x="&RValueX;" y="73" font="&ValueFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField2Label" x="&LLabelX;" y="54" font="&LabelFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="DataField3Value" x="&RValueX;" y="125" font="&ValueFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField3Label" x="&LLabelX;" y="106" font="&LabelFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="DataField4Value" x="&RValueX;" y="176" font="&ValueFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField4Label" x="&LLabelX;" y="158" font="&LabelFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	</layout>
+	<layout id="ThreeFields">
+		<drawable id="ThreeFields" />
+	    <label id="DataField1Value" x="&RValueX;" y="16" font="&ValueFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField1Label" x="&LLabelX;" y="2" font="&LabelFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="DataField2Value" x="&RValueX;" y="86" font="&ValueFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField2Label" x="&LLabelX;" y="72" font="&LabelFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="DataField3Value" x="&RValueX;" y="155" font="&ValueFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField3Label" x="&LLabelX;" y="141" font="&LabelFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	</layout>
+	<layout id="TwoFields">
+		<drawable id="TwoFields" />
+	    <label id="DataField1Value" x="&RValueX;" y="34" font="&ValueFont2;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField1Label" x="&LLabelX;" y="4" font="&LabelFont2;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	    <label id="DataField2Value" x="&RValueX;" y="137" font="&ValueFont2;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField2Label" x="&LLabelX;" y="107" font="&LabelFont2;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	</layout>
+	<layout id="OneFields">
+		<drawable id="OneFields" />
+	    <label id="DataField1Value" x="&RValueX;" y="80" font="&ValueFont1;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+	    <label id="DataField1Label" x="&LLabelX;" y="4" font="&LabelFont1;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+	</layout>
+</layouts>

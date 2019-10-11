@@ -1,0 +1,35 @@
+<properties>
+
+	<property id="ActivityType" type="number">1</property>
+
+	<property id="ToggleDisplay1" type="boolean">true</property>
+	<property id="ToggleDisplay2" type="boolean">true</property>
+	<property id="ToggleDisplay3" type="boolean">true</property>
+	<property id="ToggleDisplay4" type="boolean">true</property>
+	
+	<property id="NumOfFieldsDisp1" type="number">4</property>
+	<property id="NumOfFieldsDisp2" type="number">4</property>
+	<property id="NumOfFieldsDisp3" type="number">4</property>
+	<property id="NumOfFieldsDisp4" type="number">4</property>
+	
+    <property id="DataField1Disp1" type="number">1</property>
+    <property id="DataField2Disp1" type="number">2</property>
+    <property id="DataField3Disp1" type="number">3</property>
+    <property id="DataField4Disp1" type="number">4</property>
+    <property id="DataField1Disp2" type="number">5</property>
+    <property id="DataField2Disp2" type="number">6</property>
+    <property id="DataField3Disp2" type="number">7</property>
+    <property id="DataField4Disp2" type="number">8</property>
+    <property id="DataField1Disp3" type="number">9</property>
+    <property id="DataField2Disp3" type="number">10</property>
+    <property id="DataField3Disp3" type="number">11</property>
+    <property id="DataField4Disp3" type="number">12</property>
+    <property id="DataField1Disp4" type="number">13</property>
+    <property id="DataField2Disp4" type="number">14</property>
+    <property id="DataField3Disp4" type="number">15</property>
+    <property id="DataField4Disp4" type="number">16</property>
+    
+    <property id="ToggleAutoLap" type="boolean">false</property>
+    <property id="AutoLapDist" type="number">50</property>
+
+</properties>

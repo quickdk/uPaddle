@@ -1,0 +1,438 @@
+<settings>
+
+	<setting propertyKey="@Properties.ActivityType" title="@Strings.ActivityTypeTitle">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ActivityKayak</listEntry>
+            <listEntry value="2">@Strings.ActivitySUP</listEntry>
+            <listEntry value="3">@Strings.ActivityRafting</listEntry>
+        </settingConfig>
+    </setting>
+
+	<setting propertyKey="@Properties.ToggleDisplay1" title="@Strings.ToggleDisplay1Title">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="@Properties.ToggleDisplay2" title="@Strings.ToggleDisplay2Title">
+        <settingConfig type="boolean" />
+    </setting>
+    
+    <setting propertyKey="@Properties.ToggleDisplay3" title="@Strings.ToggleDisplay3Title">
+        <settingConfig type="boolean" />
+    </setting>
+    
+    <setting propertyKey="@Properties.ToggleDisplay4" title="@Strings.ToggleDisplay4Title">
+        <settingConfig type="boolean" />
+    </setting>
+    
+    <setting propertyKey="@Properties.NumOfFieldsDisp1" title="@Strings.NumOfFieldsDisp1Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.One</listEntry>
+            <listEntry value="2">@Strings.Two</listEntry>
+            <listEntry value="3">@Strings.Three</listEntry>
+            <listEntry value="4">@Strings.Four</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.NumOfFieldsDisp2" title="@Strings.NumOfFieldsDisp2Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.One</listEntry>
+            <listEntry value="2">@Strings.Two</listEntry>
+            <listEntry value="3">@Strings.Three</listEntry>
+            <listEntry value="4">@Strings.Four</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.NumOfFieldsDisp3" title="@Strings.NumOfFieldsDisp3Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.One</listEntry>
+            <listEntry value="2">@Strings.Two</listEntry>
+            <listEntry value="3">@Strings.Three</listEntry>
+            <listEntry value="4">@Strings.Four</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.NumOfFieldsDisp4" title="@Strings.NumOfFieldsDisp4Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.One</listEntry>
+            <listEntry value="2">@Strings.Two</listEntry>
+            <listEntry value="3">@Strings.Three</listEntry>
+            <listEntry value="4">@Strings.Four</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.DataField1Disp1" title="@Strings.DataField1Disp1Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField2Disp1" title="@Strings.DataField2Disp1Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField3Disp1" title="@Strings.DataField3Disp1Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField4Disp1" title="@Strings.DataField4Disp1Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField1Disp2" title="@Strings.DataField1Disp2Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField2Disp2" title="@Strings.DataField2Disp2Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField3Disp2" title="@Strings.DataField3Disp2Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField4Disp2" title="@Strings.DataField4Disp2Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField1Disp3" title="@Strings.DataField1Disp3Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField2Disp3" title="@Strings.DataField2Disp3Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField3Disp3" title="@Strings.DataField3Disp3Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField4Disp3" title="@Strings.DataField4Disp3Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField1Disp4" title="@Strings.DataField1Disp3Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField2Disp4" title="@Strings.DataField2Disp3Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField3Disp4" title="@Strings.DataField3Disp3Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.DataField4Disp4" title="@Strings.DataField4Disp3Title">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ElapsedTimeTitle</listEntry>
+            <listEntry value="2">@Strings.TimeofDayTitle</listEntry>
+            <listEntry value="3">@Strings.CurrentLapTimeTitle</listEntry>
+            <listEntry value="4">@Strings.LastLapTimeTitle</listEntry>
+            <listEntry value="5">@Strings.DistanceTitle</listEntry>
+            <listEntry value="6">@Strings.CurrentLapDistanceTitle</listEntry>
+            <listEntry value="7">@Strings.LastLapDistanceTitle</listEntry>
+            <listEntry value="8">@Strings.SpeedTitle</listEntry>
+            <listEntry value="9">@Strings.AverageSpeedTitle</listEntry>
+            <listEntry value="10">@Strings.MeterperStrokeTitle</listEntry>
+            <listEntry value="11">@Strings.AverageMeterperStrokeTitle</listEntry>
+            <listEntry value="12">@Strings.StrokeCadenceTitle</listEntry>
+            <listEntry value="13">@Strings.AverageSrokeCadenceTitle</listEntry>
+            <listEntry value="14">@Strings.HeartRateTitle</listEntry>
+            <listEntry value="15">@Strings.AverageHeartRateTitle</listEntry>
+            <listEntry value="16">@Strings.HeadingTitle</listEntry>
+            <listEntry value="17">@Strings.PaceTitle</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.ToggleAutoLap" title="@Strings.ToggleAutoLap">
+        <settingConfig type="boolean" />
+    </setting>
+    
+    <setting propertyKey="@Properties.AutoLapDist" title="@Strings.AutoLapDist">
+        <settingConfig type="list">
+            <listEntry value="50">@Strings.fifty</listEntry>
+            <listEntry value="75">@Strings.seventyfive</listEntry>
+            <listEntry value="100">@Strings.hundred</listEntry>
+            <listEntry value="150">@Strings.hundredfifty</listEntry>
+            <listEntry value="200">@Strings.twohundred</listEntry>
+            <listEntry value="250">@Strings.twofifty</listEntry>
+            <listEntry value="300">@Strings.threehundred</listEntry>
+            <listEntry value="400">@Strings.fourhundred</listEntry>
+            <listEntry value="500">@Strings.fivehundred</listEntry>
+            <listEntry value="750">@Strings.sevenfifty</listEntry>
+            <listEntry value="1000">@Strings.thousand</listEntry>
+            <listEntry value="1250">@Strings.twelvefifty</listEntry>
+            <listEntry value="1500">@Strings.fifteenhundred</listEntry>
+            <listEntry value="2000">@Strings.twothousand</listEntry>
+            <listEntry value="2500">@Strings.twentyfivehundred</listEntry>
+            <listEntry value="5000">@Strings.fivethousand</listEntry>
+        </settingConfig>
+    </setting>
+
+</settings>
