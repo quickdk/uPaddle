@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="yes" ?><!DOCTYPE layout [
+    <!ENTITY LValueX "center">
+    <!ENTITY LLabelX "center">
+    
+    <!ENTITY RValueX "center">
+    <!ENTITY RLabelX "center">  
+    
+	<!ENTITY TValueY "21"> 
+    <!ENTITY TLabelY "2">
+    
+    <!ENTITY MValueY "48">
+    <!ENTITY MLabelY "29">
+    
+    <!ENTITY BValueY "98">
+    <!ENTITY BLabelY "79"> 
+           
+    <!ENTITY LabelFont4 "Gfx.FONT_TINY">
+    <!ENTITY ValueFont4 "Gfx.FONT_NUMBER_MILD"> 
+    
+    <!ENTITY LabelFont3 "Gfx.FONT_TINY">
+    <!ENTITY ValueFont3 "Gfx.FONT_NUMBER_MILD"> 
+    
+    <!ENTITY LabelFont2 "Gfx.FONT_SMALL">
+    <!ENTITY ValueFont2 "Gfx.FONT_NUMBER_HOT"> 
+    
+    <!ENTITY LabelFont1 "Gfx.FONT_SMALL">
+    <!ENTITY ValueFont1 "Gfx.FONT_NUMBER_THAI_HOT">  
+      
+    <!ENTITY TextColor "Gfx.COLOR_BLACK">  
+]>
+<layouts>
+	<layout id="FourFields">
+		<drawable id="FourFields" />
+	    <label id="DataField1Value" x="center" y="41" font="&ValueFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField1Label" x="center" y="5" font="&LabelFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField2Value" x="59" y="120" font="&ValueFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField2Label" x="59" y="83" font="&LabelFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField3Value" x="179" y="120" font="&ValueFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField3Label" x="179" y="83" font="&LabelFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField4Value" x="center" y="199" font="&ValueFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField4Label" x="center" y="163" font="&LabelFont4;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	</layout>
+	<layout id="ThreeFields">
+		<drawable id="ThreeFields" />
+	    <label id="DataField1Value" x="center" y="41" font="&ValueFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField1Label" x="center" y="5" font="&LabelFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField2Value" x="center" y="113" font="Gfx.FONT_NUMBER_MEDIUM" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField2Label" x="center" y="83" font="&LabelFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField3Value" x="center" y="199" font="&ValueFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField3Label" x="center" y="163" font="&LabelFont3;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	</layout>
+	<layout id="TwoFields">
+		<drawable id="TwoFields" />
+	    <label id="DataField1Value" x="center" y="40" font="&ValueFont2;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField1Label" x="center" y="4" font="&LabelFont2;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField2Value" x="center" y="158" font="&ValueFont2;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField2Label" x="center" y="122" font="&LabelFont2;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	</layout>
+	<layout id="OneFields">
+		<drawable id="OneFields" />
+	    <label id="DataField1Value" x="center" y="center" font="&ValueFont1;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	    <label id="DataField1Label" x="center" y="22" font="&LabelFont1;" color="&TextColor;" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	</layout>
+</layouts>
