@@ -1,5 +1,5 @@
 # uPaddle
-Code for the Garmin Connect IQ uPaddle  app.
+Code for the Garmin Connect IQ uPaddle  app. :)
 
 Officially available at the Garmin app store: https://apps.garmin.com/da-DK/apps/cff41f71-ab9e-4d43-a0b6-4638079c3d66
 
